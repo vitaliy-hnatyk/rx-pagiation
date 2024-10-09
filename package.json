@@ -1,0 +1,44 @@
+{
+    "name": "rx-pagination",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/javascript/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VitaliyHnatyk/react-autocomplete.git"
+    },
+    "keywords": [
+      "JavaScript",
+      "ReactJs",
+      "css"
+    ],
+     "author": {
+      "name": "Vitaliy Hnatyk",
+      "email": "vitaliy.hnatyk@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VitaliyHnatyk/react-autocomplete/issues"
+    },
+    "homepage": "https://github.com/VitaliyHnatyk/react-autocomplete#readme",
+    "dependencies": {
+      "react": "^16.1.0"
+    },
+    "devDependencies": {
+      "eslint": "^4.10.0",
+      "autoprefixer": "^6.7.0",
+      "babel-cli": "6.14.0",
+      "babel-eslint": "6.1.2",
+      "babel-preset-es2015": "6.14.0",
+      "babel-preset-react": "6.11.1",
+      "babel-preset-stage-2": "6.13.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-node": "^5.2.0",
+      "eslint-plugin-react": "^7.4.0",
+      "eslint-plugin-standard": "^3.0.1"
+    }
+  }
