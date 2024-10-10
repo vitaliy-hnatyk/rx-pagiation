@@ -1,11 +1,8 @@
 {
   "name": "@vhnatyk/rx-pagination",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/pagination.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitaliy-hnatyk/rx-pagination.git"
@@ -21,11 +18,18 @@
     "url": "https://github.com/vitaliy-hnatyk/rx-pagination/issues"
   },
   "homepage": "https://github.com/vitaliy-hnatyk/rx-pagination#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@vhnatyk/rx-pagination": "file:",
     "i18next": "^23.15.2",
     "react": "^18.3.1",
-    "react-i18next": "^15.0.2"
+    "react-i18next": "^15.0.2",
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "eslint": "^4.10.0"
@@ -33,5 +37,17 @@
   "precommit": [
     "lint",
     "test"
-  ]
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
