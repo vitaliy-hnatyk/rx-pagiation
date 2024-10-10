@@ -15,12 +15,7 @@ const i18n = createInstance({
         'previous':'Previous',
         'next': 'next'
       },
-    },
-    de: {
-      translation: {
-        hello: 'Hallo aus einer anderen i18n Instanz',
-      },
-    },
+    }
   },
 });
 
