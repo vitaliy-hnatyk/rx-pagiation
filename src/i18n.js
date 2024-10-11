@@ -5,7 +5,7 @@ const i18n = createInstance({
   debug: true,
 
   interpolation: {
-    escapeValue: false, // not needed for react as it escapes by default
+    escapeValue: false,
   },
 
   resources: {
