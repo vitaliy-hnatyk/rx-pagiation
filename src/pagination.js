@@ -35,8 +35,7 @@ const Pagination = ({ page, linkMore, productMaxpage, limit, onclick, parentI18n
                                     } else
                                         return <li className={"page-item " + ((page == p) ? "active" : "")}>
                                             <a className="page-link" href={linkMore + "page-" + p + "/"}  onClick={onclick(p)} data-page={p}>{p}</a></li>;
-                                }
-                                )
+                                })
                         }
                         <li className="page-item"><a className="page-link" href={linkMore + "page-" + productMaxpage + "/"}
                             aria-label={t('next')}  onClick={onclick(productMaxpage)} data-page={productMaxpage}><span aria-hidden="true">
