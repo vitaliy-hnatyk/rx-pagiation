@@ -2,7 +2,7 @@
   "name": "@vhnatyk/rx-pagination",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vitaliy-hnatyk/rx-pagination.git"
@@ -22,10 +22,7 @@
   },
   "homepage": "https://github.com/vitaliy-hnatyk/rx-pagination#readme",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "webpack  --mode=production"
   },
   "dependencies": {
     "@vhnatyk/rx-pagination": "file:",
