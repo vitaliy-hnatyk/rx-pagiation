@@ -3,11 +3,9 @@ import { createInstance } from 'i18next';
 const i18n = createInstance({
   fallbackLng: 'en',
   debug: true,
-
   interpolation: {
     escapeValue: false,
   },
-
   resources: {
     en: {
       translation: {
